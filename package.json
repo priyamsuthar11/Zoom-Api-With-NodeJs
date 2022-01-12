@@ -1,0 +1,20 @@
+{
+  "name": "zoom-api-jwt",
+  "version": "1.0.0",
+  "description": "Zoom API JWT Sample app",
+  "main": "index.js",
+  "scripts": {
+    "Start": "nodemon index.js"
+  },
+  "author": "Michael Purnell",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7",
+    "@zoomus/websdk": "^1.9.9",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "nodemailer": "^6.7.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
